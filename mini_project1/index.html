@@ -48,6 +48,30 @@
     }
 </style>
 
+<style>
+    /* 버튼 스타일 */
+    #topBtn {
+        display: none; /* 처음에 보이지 않도록 설정 */
+        position: fixed; /* 고정 위치 설정 */
+        bottom: 20px; /* 페이지 하단에서 20px 위에 위치 */
+        right: 20px; /* 페이지 오른쪽에서 20px 떨어진 위치 */
+        z-index: 99; /* 다른 요소들 위에 표시되도록 설정 */
+        border: none;
+        outline: none;
+        background-color: #555; /* 버튼 배경색 */
+        color: white; /* 텍스트 색상 */
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px; /* 둥근 모서리 */
+        font-size: 18px;
+    }
+
+    /* 버튼 호버 효과 */
+    #topBtn:hover {
+        background-color: #333; /* 호버 시 배경색 변경 */
+    }
+</style>
+
 </head>
     <h1>LibraNote</h1>
   </body>
@@ -183,7 +207,11 @@
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div> 
-                </div>   
+                     </div>   
+                <div>
+                <!-- Top 버튼 -->
+                 <button onclick="topFunction()" id="topBtn" title="Go to top">^</button>
+                </div>
             </div>
         </div>
     </div>
@@ -196,5 +224,26 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+        // Get the button
+        var topButton = document.getElementById("topBtn");
+
+        // 페이지를 스크롤할 때 실행되는 함수
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block"; // 스크롤이 20px 이상 내려가면 버튼 표시
+            } else {
+                topButton.style.display = "none"; // 그 외에는 버튼 숨김
+            }
+        }
+
+        // 버튼을 클릭하면 페이지 상단으로 스크롤
+        function topFunction() {
+            window.scrollTo({top: 0, behavior: 'smooth'}); // 부드럽게 상단으로 이동
+        }
+    </script>
   </body>
 </html>
