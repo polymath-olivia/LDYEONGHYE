@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 레이아웃</title>
+    <style>
+      .basic {
+        display: inline;
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+      }
+
+      span {
+        display: block;
+        background-color: red;
+      }
+
+      .navigation {
+        list-style-type: none;
+        border: 1px solid #000;
+      }
+
+      .navigation__item {
+        display: inline;
+        padding: 0 10px;
+        height: 100px;
+      }
+
+      /* Position */
+      .container {
+        position: relative;
+        border: 1px solid #000;
+        padding: 10px;
+        height: 2000px;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        color: #fff;
+      }
+
+      .absolute {
+        position: absolute;
+        background-color: #ff2323;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .relative {
+        position: relative;
+        top: 20px;
+        left: -10px;
+        background-color: blueviolet;
+      }
+
+      .fixed {
+        position: fixed;
+        background-color: yellow;
+        top: 0;
+      }
+
+      .sticky {
+        position: sticky;
+        background-color: chocolate;
+        top: 0;
+        left: 200px;
+      }
+      .test {
+        height: 5000px;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="basic">Display</div>
+    <span>span태그입니다</span>
+    <span>span태그입니다</span>
+    <div>Second</div>
+    <ul class="navigation">
+      <li class="navigation__item">홈</li>
+      <li class="navigation__item">특징</li>
+      <li class="navigation__item">가격</li>
+      <li class="navigation__item">문의</li>
+    </ul>
+
+    <!-- Position -->
+    <div class="container">
+      <div class="box">static</div>
+      <div class="box absolute">absolute</div>
+      <div class="box relative">relative</div>
+      <div class="box fixed">fixed</div>
+      <div class="box sticky">sticky</div>
+    </div>
+    <div class="test"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

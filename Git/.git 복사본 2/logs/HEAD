@@ -1,0 +1,26 @@
+0000000000000000000000000000000000000000 2ea944b61e94c02674ba71350fea6e7fc5bc98ad polymath-olivia <kimm138713@gmail.com> 1725255136 +0900	commit (initial): first
+2ea944b61e94c02674ba71350fea6e7fc5bc98ad 2ea944b61e94c02674ba71350fea6e7fc5bc98ad polymath-olivia <kimm138713@gmail.com> 1725256241 +0900	checkout: moving from main to oz
+2ea944b61e94c02674ba71350fea6e7fc5bc98ad 2ea944b61e94c02674ba71350fea6e7fc5bc98ad polymath-olivia <kimm138713@gmail.com> 1725256295 +0900	checkout: moving from oz to main
+2ea944b61e94c02674ba71350fea6e7fc5bc98ad 2ea944b61e94c02674ba71350fea6e7fc5bc98ad polymath-olivia <kimm138713@gmail.com> 1725256676 +0900	checkout: moving from main to main
+2ea944b61e94c02674ba71350fea6e7fc5bc98ad 2ea944b61e94c02674ba71350fea6e7fc5bc98ad polymath-olivia <kimm138713@gmail.com> 1725257841 +0900	checkout: moving from main to oz_new
+2ea944b61e94c02674ba71350fea6e7fc5bc98ad e5aa9dc833bd8498f7d8d283c1a2a850fa97bcbe polymath-olivia <kimm138713@gmail.com> 1725257952 +0900	commit: 여빈에서 경혜로 변경
+e5aa9dc833bd8498f7d8d283c1a2a850fa97bcbe 2ea944b61e94c02674ba71350fea6e7fc5bc98ad polymath-olivia <kimm138713@gmail.com> 1725257967 +0900	checkout: moving from oz_new to main
+2ea944b61e94c02674ba71350fea6e7fc5bc98ad e5aa9dc833bd8498f7d8d283c1a2a850fa97bcbe polymath-olivia <kimm138713@gmail.com> 1725258020 +0900	merge oz_new: Fast-forward
+e5aa9dc833bd8498f7d8d283c1a2a850fa97bcbe e5aa9dc833bd8498f7d8d283c1a2a850fa97bcbe polymath-olivia <kimm138713@gmail.com> 1725258294 +0900	checkout: moving from main to main
+e5aa9dc833bd8498f7d8d283c1a2a850fa97bcbe ad05c92b036531385e2a9ba114914a542016f977 polymath-olivia <kimm138713@gmail.com> 1725258318 +0900	commit: 병철
+ad05c92b036531385e2a9ba114914a542016f977 876c8c19ec01c453c064fb55b012a24cd0724c14 polymath-olivia <kimm138713@gmail.com> 1725261051 +0900	commit: 변경완료
+876c8c19ec01c453c064fb55b012a24cd0724c14 ba746044dfa04d317a3e95d3c0c8b38f4532d0b1 polymath-olivia <kimm138713@gmail.com> 1725270875 +0900	commit: 첫번째 커밋
+ba746044dfa04d317a3e95d3c0c8b38f4532d0b1 4bb6bbe2326b105041eb9267fbd21e74899acca6 polymath-olivia <kimm138713@gmail.com> 1725282531 +0900	commit: 커밋 메시지
+4bb6bbe2326b105041eb9267fbd21e74899acca6 da43fd999a59399858b7ec2871d672ba13e17842 polymath-olivia <kimm138713@gmail.com> 1725282797 +0900	commit: back에 멤버 가연 추가
+da43fd999a59399858b7ec2871d672ba13e17842 5f76f74d3d8d3b825583797304e3300be25435af polymath-olivia <kimm138713@gmail.com> 1725283371 +0900	commit: AI부서 추가
+5f76f74d3d8d3b825583797304e3300be25435af 82a4593de387cddad415929b7923fda5b943a3f4 polymath-olivia <kimm138713@gmail.com> 1725283441 +0900	commit: ai팀을 서비스팀으로 변경
+82a4593de387cddad415929b7923fda5b943a3f4 82a4593de387cddad415929b7923fda5b943a3f4 polymath-olivia <kimm138713@gmail.com> 1725283627 +0900	reset: moving to 82a4593de387cddad415929b7923fda5b943a3f4
+82a4593de387cddad415929b7923fda5b943a3f4 5f76f74d3d8d3b825583797304e3300be25435af polymath-olivia <kimm138713@gmail.com> 1725283658 +0900	reset: moving to 5f76f74d3d8d3b825583797304e3300be25435af
+5f76f74d3d8d3b825583797304e3300be25435af 5f76f74d3d8d3b825583797304e3300be25435af polymath-olivia <kimm138713@gmail.com> 1725283786 +0900	reset: moving to HEAD
+5f76f74d3d8d3b825583797304e3300be25435af 7b62a00a3ba10ad7452c2cc90ac608e4c1a85827 polymath-olivia <kimm138713@gmail.com> 1725284076 +0900	commit: oz_front.yaml 파일 복원
+7b62a00a3ba10ad7452c2cc90ac608e4c1a85827 7b62a00a3ba10ad7452c2cc90ac608e4c1a85827 polymath-olivia <kimm138713@gmail.com> 1725285709 +0900	checkout: moving from main to add-coach
+7b62a00a3ba10ad7452c2cc90ac608e4c1a85827 62e77ff95bb53658424aa9921b0904cfeb92f2c7 polymath-olivia <kimm138713@gmail.com> 1725286048 +0900	commit: Add .DS_Store to .gitignore
+62e77ff95bb53658424aa9921b0904cfeb92f2c7 cd3e2da178091435739adb9a8bc553491edac121 polymath-olivia <kimm138713@gmail.com> 1725287171 +0900	commit: 풀스택팀 멤버 영철 추가
+cd3e2da178091435739adb9a8bc553491edac121 e25409c54e409b525694b52f1ae80fe3efc9c30c polymath-olivia <kimm138713@gmail.com> 1725287247 +0900	commit: 풀스택팀 멤버 영철 추가
+e25409c54e409b525694b52f1ae80fe3efc9c30c 7b62a00a3ba10ad7452c2cc90ac608e4c1a85827 polymath-olivia <kimm138713@gmail.com> 1725287383 +0900	checkout: moving from add-coach to main
+7b62a00a3ba10ad7452c2cc90ac608e4c1a85827 e25409c54e409b525694b52f1ae80fe3efc9c30c polymath-olivia <kimm138713@gmail.com> 1725287390 +0900	merge new-teams: Fast-forward

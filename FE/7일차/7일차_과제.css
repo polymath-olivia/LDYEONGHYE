@@ -1,0 +1,24 @@
+/* /* 카드의 고정 높이와 Flexbox 설정
+.card-fixed-height {
+  width: 18rem;
+  height: 500px; /* 카드의 고정 높이 설정 */
+/* display: flex;
+  flex-direction: column;} */
+
+/* 이미지의 높이를 동일하게 설정 */
+.fixed-img {
+  height: 200px; /* 원하는 높이로 설정 */
+  object-fit: cover; /* 이미지가 카드 내에서 잘리거나 왜곡되지 않도록 조정 */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 텍스트는 위쪽에 */
+  flex-grow: 1; /* 카드 바디가 이미지를 제외한 전체 높이를 차지하도록 설정 */
+}
+
+.btn-primary {
+  margin-top: auto; /* 버튼을 카드 바디의 하단으로 밀어냄 */
+  align-self: start; /* 버튼을 왼쪽 정렬 */
+}
