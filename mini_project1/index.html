@@ -75,13 +75,26 @@
         padding: 15px;
         border-radius: 10px;
         /* 둥근 모서리 */
-        font-size: 18px;
+        font-size: 15px;
       }
 
       /* 버튼 호버 효과 */
       #topBtn:hover {
         background-color: #333;
         /* 호버 시 배경색 변경 */
+      }
+    </style>
+
+    <style>
+      .navigatebar {
+        display: flex;
+        justify-content: center; /* 가로축 중앙 정렬 */
+        align-items: center; /* 세로축 중앙 정렬 */
+        height: 10vh; /* 컨테이너가 화면 전체 높이를 차지함 */
+      }
+      .navigatebar {
+        padding: 5px;
+        background-color: lightblue;
       }
     </style>
   </head>
@@ -102,21 +115,48 @@
             <button type="submit">Search</button>
         </form>
     </div> -->
-      <div class="navigatebar container d-flex p-2 gap-4">
+      <div class="navigatebar container d-flex align-items-center p-2 gap-4">
         <div class="logo">
           <h1>LibraNote</h1>
         </div>
-        <div class="searchbar flex-fill d-flex">
-          검색바
-          <div class="filter-wrapper">
-            <select class="filter" aria-label="Default select example">
-              <option selected>제목</option>
-              <option value="1">저자</option>
-              <option value="2">출판사</option>
-            </select>
-          </div>
-          <div class="search-input">검색창</div>
-          <div class="search-button">검색버튼</div>
+        <!-- 검색바 -->
+
+        <!-- Dropdown Menu -->
+        <div class="input-group mb-3">
+          <button
+            class="btn btn-outline-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            제목
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">저자</a></li>
+            <li><a class="dropdown-item" href="#">출판사</a></li>
+          </ul>
+
+          <!-- Input Field with Search Icon -->
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            aria-label="Search input with dropdown button"
+            id="searchInput"
+          />
+
+          <!-- Search Button with Icon -->
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="searchButton"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/54/54481.png"
+              width="20"
+              alt="Search Icon"
+            />
+          </button>
         </div>
 
         <div class="dropdown">
@@ -136,18 +176,9 @@
             class="dropdown-menu dropdown-menu-end"
             aria-labelledby="dropdownMenuButton"
           >
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-
-        <div class="hambergerMenu">
-          guuhuhu
-          <ul>
-            <li class="upload">업로드</li>
-            <li class="profile">프로필</li>
-            <li class="contact">연락</li>
+            <li><a class="dropdown-item" href="#">업로드</a></li>
+            <li><a class="dropdown-item" href="#">프로필</a></li>
+            <li><a class="dropdown-item" href="#">연락</a></li>
           </ul>
         </div>
       </div>
